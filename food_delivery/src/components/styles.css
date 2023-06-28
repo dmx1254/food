@@ -1,0 +1,55 @@
+.custom-carousel .carousel-item-padding-40-px {
+  transition: transform 500ms ease-in-out;
+}
+
+.custom-carousel .carousel-item-padding-40-px.carousel-item-left {
+  transform: translateY(100%);
+}
+
+.custom-carousel .carousel-item-padding-40-px.carousel-item-right {
+  transform: translateY(-100%);
+}
+
+.sidedrawer {
+  width: 420px;
+  height: 100vh;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  z-index: 9999;
+  transform: translateX(100%);
+  transition: all 0.3s ease-out;
+  flex-direction: column;
+}
+.show {
+  transform: translateX(0);
+}
+
+.addrawer {
+  width: 70%;
+  height: 400px;
+  background: #fff;
+  position: fixed;
+  top: 25%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transform: translateX(200%);
+  transition: all 0.3s ease-out;
+  border-radius: 10px;
+}
+
+.addshow {
+  transform: translateX(0);
+}
+
+.cart {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

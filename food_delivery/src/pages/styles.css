@@ -1,0 +1,17 @@
+.parent-food:hover div {
+  transform: translateY(0px);
+}
+
+.parent-drink:hover div {
+  transform: translateY(0px);
+}
+
+.parent-fruit:hover div {
+  transform: translateY(0px);
+}
+
+.checkout {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
